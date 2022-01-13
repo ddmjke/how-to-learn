@@ -1,3 +1,11 @@
-.video__iframe:nth-of-type(1) {
+.video__iframe {
   margin-right: 20px;
+  border: none;
+  width: 515px;
+  height: 316px;
+  object-fit: cover;
+}
+
+.video__iframe:last-of-type {
+  margin-right: 0;
 }
