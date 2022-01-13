@@ -3,4 +3,8 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* overflow добавлен так как треугольнику из секции kaufman
+  нужно 2 обертки чтобы крутиться за горизонтальные границы
+  секции без скролла и не выходить за вертикальные */
+  overflow-x: hidden;
 }
